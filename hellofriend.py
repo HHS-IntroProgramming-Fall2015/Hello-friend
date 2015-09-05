@@ -17,3 +17,10 @@ Note that the text: "Guido" and "16" are entered by the user running the program
 The final line ("Hello...") is generated dynamically when you run the program, based 
 on the name and age that the user enters.
 """
+input("Young one, tell me your name:")
+nam=0
+input("Young one, tell me your age:")
+yr=2015-int({1})
+pyr=yr-1991
+z="Hello young {0}. I am Python, the great and powerful computer language. You can tell that I must be a prestigious language as I am {1} years older than you."
+print(z.format(nam,pyr)
