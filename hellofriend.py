@@ -22,4 +22,3 @@ name = input("Please tell me your name:")
 age = input("Please tell me your age:")
 pycomp = 24 - int(age)
 print ("Hello, " + name + ". Python is " + str(pycomp) + " years older than you are!")
-
