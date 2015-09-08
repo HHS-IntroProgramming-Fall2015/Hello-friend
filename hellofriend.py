@@ -18,7 +18,7 @@ The final line ("Hello...") is generated dynamically when you run the program, b
 on the name and age that the user enters.
 """
 
-name = input("Please tell me your name:")
-age = input("Please tell me your age:")
+name = input("Please tell me your name: ")
+age = input("Please tell me your age: ")
 pycomp = 24 - int(age)
 print ("Hello, " + name + ". Python is " + str(pycomp) + " years older than you are!")
