@@ -22,9 +22,9 @@ name = input("Please tell me your name:")
 age = input("Please tell me your age:")
 if int(age) > 24:
     pycomp = int(age) - 24
-    print ("Hello, " + name + ". Python is " + str(pycomp) + " years younger than you are.")
+    print ("Hello, " + name + ". Python is " + str(pycomp) + " years younger than you are!")
 if int(age) < 24:
     pycomp = 24 - int(age)
-    print ("Hello, " + name + ". Python is " + str(pycomp) + " years older than you are.")
+    print ("Hello, " + name + ". Python is " + str(pycomp) + " years older than you are!")
 if int(age) == 24:
     print ("Hello, " + name + ". Python is the same age as you!")
