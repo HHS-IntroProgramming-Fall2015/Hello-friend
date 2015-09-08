@@ -19,5 +19,5 @@ on the name and age that the user enters.
 """
 a = input("Please tell me your name: ")
 b = input("Please tell me your age: ")
-print("Hello, {0}, Pythong is {1} years older than you are!" .format(a,b))
+print("Hello, {0}, Python is {1} years older than you are!" .format(a,b))
 
