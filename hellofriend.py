@@ -20,5 +20,7 @@ on the name and age that the user enters.
 
 name=input("Please tell me your name: ")
 age= input("Please tell me your age: ")
-s="{0} heeellooo {1}"
-print(s. format(name, 24-int(age))
+
+s="Hello, {0}. Python is {1} years older than you are!"
+print(s.format(name),(a-(int('age'))))
+a=int(24)
