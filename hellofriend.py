@@ -3,7 +3,7 @@ hellofriend.py
 Author: Ryan Kynor
 Credit: 
 http://stackoverflow.com/questions/19664840/typeerror-cant-convert-float-object-to-str-implicitly
-
+Milo
 Assignment:
 
 Write and submit an interactive Python program that asks for the user's name and age, 
@@ -21,9 +21,13 @@ on the name and age that the user enters.
 
 
 age = input("What is your age?")
-int(age)-3
-print(int(age)-3)
+int(age)-24
+x=(int(age))
+y=25-x
+print("python is ")
+print(y)
+print("years older than you.")
 #s1 = "You are {0} years old."
-#s2 = "In 5 years you will be {0} years old."
+#s2 = "pythin is {y} years older than you."
 #print(int) s1.format((age))
 #print(s2.format(age + 5))
