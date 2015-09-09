@@ -19,4 +19,6 @@ on the name and age that the user enters.
 """
 
 name=input("Please tell me your name: ")
-age= input("please
+age= input("Please tell me your age: ")
+s="{0} heeellooo {1}"
+print(s. format(name), 24-int(age))
