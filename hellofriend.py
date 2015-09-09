@@ -1,7 +1,7 @@
 """
 hellofriend.py
 Author: Roger Danilek
-Credit: Nils Kinston
+Credit: Nils Kingston, Adam Pikielny
 
 Assignment:
 
@@ -19,4 +19,5 @@ on the name and age that the user enters.
 """
 name = input("Please tell me your name:")
 age = input("Please tell me your age:")
-print("Hello, {0}. Python is " + print(.format(age, 24-int"age")) + "years older than you are!")
+age_difference = 24-int(age)
+print ("Hello, " + name + ". Python is " + str(age_difference) + " years older than you are!")
