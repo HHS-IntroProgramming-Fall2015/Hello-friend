@@ -17,8 +17,8 @@ Note that the text: "Guido" and "16" are entered by the user running the program
 The final line ("Hello...") is generated dynamically when you run the program, based 
 on the name and age that the user enters.
 """
-nam=input("Please tell me your name:")
-ag=input("Please tell me your age:")
+nam=input("Please tell me your name: ")
+ag=input("Please tell me your age: ")
 byr=2015-int(ag)
 pyr=byr-1991
 z="Hello, {0}. Python is {1} years older than you are!"
