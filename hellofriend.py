@@ -24,9 +24,7 @@ age = input("Please tell me your age:")
 int(age)-24
 x=(int(age))
 y=25-x
-print("Hello,") print(name) print(". Python is ") print(age) print(" years older than your are!")
-print(y)
-print("years older than you.")
+print("Hello,"{name}". Python is "{y}" years older than you are!")
 #s1 = "You are {0} years old."
 #s2 = "pythin is {y} years older than you."
 #print(int) s1.format((age))
