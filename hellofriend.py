@@ -1,7 +1,7 @@
 """
 hellofriend.py
 Author: Sam Supattapone
-Credit: none
+Credit: J.C. Napier
 
 Assignment: Hello, friend!
 
