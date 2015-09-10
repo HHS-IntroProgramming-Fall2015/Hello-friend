@@ -18,3 +18,4 @@ The final line ("Hello...") is generated dynamically when you run the program, b
 on the name and age that the user enters.
 """
 user=input("Tell me your name!")
+print("Hi {0}!")
