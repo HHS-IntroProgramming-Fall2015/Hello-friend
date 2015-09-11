@@ -20,5 +20,5 @@ on the name and age that the user enters.
 user= input("Please tell me your name:")
 age=input("Please tell me your age:".format(user))
 agenumber = int(age) 
-steve = 24.0-agenumber
+steve = 24-agenumber
 print("Hello, {0}. Python is {1} years older than you are!".format(user, steve))
