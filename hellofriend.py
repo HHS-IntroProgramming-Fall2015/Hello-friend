@@ -20,6 +20,6 @@ on the name and age that the user enters.
 user= input("Tell me your name!")
 print("Hi {0}!".format(user))
 user=input("how old are you {0}?".format(user))
-int=(format("num"))
-int=(24-{1})
-print("Well {0}, python is {2} years older than you!")
+nums="24-{1}"
+int(nums) 
+print("Well {0}, python is 'nums' years older than you!")
