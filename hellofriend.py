@@ -21,4 +21,4 @@ user= input("Please tell me your name:")
 age=input("Please tell me your age:".format(user))
 agenumber = int(age) 
 steve = 24-agenumber
-print("Hello, {0}. Python is {steve} years older than you are!".format(user, steve))
+print("Hello, {0}. Python is {1} years older than you are!".format(user, steve))
