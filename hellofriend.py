@@ -21,5 +21,5 @@ user= input("Tell me your name!")
 print("Hi {0}!".format(user))
 user=input("how old are you {0}?".format(user))
 int(nums) 
-nums="24-{1}"
+nums=(s.format(24-{1}))
 print("Well {0}, python is 'nums' years older than you!")
