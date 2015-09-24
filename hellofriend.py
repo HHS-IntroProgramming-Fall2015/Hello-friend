@@ -1,7 +1,10 @@
 """
 hellofriend.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Morgan Meliment
+Credit: http://www.tutorialspoint.com/python/python_files_io.htm
+http://stackoverflow.com/questions/2485466/pythons-equivalent-of-in-an-if-statement
+https://www.codecademy.com/en/tracks/python
+http://stackoverflow.com/questions/20449427/how-can-i-read-inputs-as-integers-in-python
 
 Assignment:
 
@@ -17,3 +20,11 @@ Note that the text: "Guido" and "16" are entered by the user running the program
 The final line ("Hello...") is generated dynamically when you run the program, based 
 on the name and age that the user enters.
 """
+
+name = input("Please tell me your name: ")
+age = int(input("Please tell me your age: "))
+
+diff = age - 24
+final = "Python is " + str(diff) + " years younger than you are!"
+
+print("Hello, " + name + ". " + final)
