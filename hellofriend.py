@@ -1,10 +1,7 @@
 """
 hellofriend.py
 Author: Morgan Meliment
-Credit: http://www.tutorialspoint.com/python/python_files_io.htm
-http://stackoverflow.com/questions/2485466/pythons-equivalent-of-in-an-if-statement
-https://www.codecademy.com/en/tracks/python
-http://stackoverflow.com/questions/20449427/how-can-i-read-inputs-as-integers-in-python
+Credit: http://www.tutorialspoint.com/python/python_files_io.htm, http://stackoverflow.com/questions/2485466/pythons-equivalent-of-in-an-if-statement, https://www.codecademy.com/en/tracks/python, http://stackoverflow.com/questions/20449427/how-can-i-read-inputs-as-integers-in-python
 
 Assignment:
 
