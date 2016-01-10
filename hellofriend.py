@@ -21,4 +21,4 @@ name = input("What is your name?")
 age  = input("What is your age?")
 pythonage = 24
 dif = pythonage - int(age)
-print(name + str(dif))
+print("Hello", Name, ". Python is", dif, "years older than you!")
