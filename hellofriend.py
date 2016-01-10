@@ -19,6 +19,6 @@ on the name and age that the user enters.
 """
 name = input("What is your name?")
 age  = input("What is your age?")
-pythonage = datetime.now().year - 1991
+pythonage = 24
 dif = pythonage - int(age)
 print("Hello", name,".Python is", dif, "years older than you!")
