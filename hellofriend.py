@@ -20,5 +20,5 @@ on the name and age that the user enters.
 name = input("What is your name?")
 age  = input("What is your age?")
 pythonage = 24
-dif = pythonage - age
-print(name + dif)
+dif = pythonage - int(age)
+print(name + str(dif))
