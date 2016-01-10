@@ -21,13 +21,15 @@ from datetime import datetime
 
 nom = input("Please tell me your name: ")
 age = input("Please tell me your age: ")
+
 ageint = int(age)
 pythonage = datetime.now().year - 1991
+
 if (pythonage > ageint):
-    agestr = str(pythonage - ageint) + " years older than you."
+    agestr = str(pythonage - ageint) + " years older than you are!"
 if (pythonage < ageint) :
-    agestr = str(ageint-pythonage) +  " years younger than you."
+    agestr = str(ageint-pythonage) +  " years younger than you are!"
 if (ageint == pythonage):
-    agestr = "the same age as you."
+    agestr = "the same age as you are!"
 print ("Hello, " + nom + ". Python is " + agestr)
 
