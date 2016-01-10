@@ -1,7 +1,7 @@
 """
 hellofriend.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Ed Dennison
+Credit: 
 
 Assignment:
 
@@ -17,3 +17,15 @@ Note that the text: "Guido" and "16" are entered by the user running the program
 The final line ("Hello...") is generated dynamically when you run the program, based 
 on the name and age that the user enters.
 """
+nom = input("Comment appelez-vous?")
+age = input("Quel age est vous?")
+pythonage = datetime.now().year - 1991
+if pythonage > age
+    agestr = pythonage - age + "years older than python."
+if age < pythonage
+    agestr = age-pythonage + "years younger than python."
+if age == pythonage
+    agestr - "the same age as python."
+    
+print ("Allo ", nom , ". Vous etes ", agestr)
+
