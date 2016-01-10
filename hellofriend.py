@@ -27,11 +27,11 @@ pythonage = datetime.now().year - 1991
 print(pythonage)
 print(ageint)
 if (pythonage > ageint):
-    print (pythonage - ageint , "years younger than you.")
+    print (pythonage - ageint , "years older than you.")
 if (pythonage < ageint) :
-    print (ageint-pythonage , "years older than you.")
+    print (ageint-pythonage , "years younger than you.")
 if (ageint == pythonage):
-    agestr = "the same age as python."
+    agestr = "the same age as you."
 
 print ("Hello, ", nom , ". Python is ", agestr)
 
