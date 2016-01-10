@@ -20,11 +20,11 @@ on the name and age that the user enters.
 nom = input("Comment appelez-vous?")
 age = input("Quel age est vous?")
 pythonage = datetime.now().year - 1991
-if (pythonage > int(age))
-    agestr = pythonage - agint(age)e + "years older than python."
-if agint(age)e < pythonage
+if (pythonage > int(age)):
+    agestr = pythonage - int(age) + "years older than python."
+if (agint(age)e < pythonage) :
     agestr = int(age)-pythonage + "years younger than python."
-if agint(age)e == pythonage
+if (agint(age)e == pythonage):
     agestr - "the same age as python."
     
 print ("Allo ", nom , ". Vous etes ", agestr)
