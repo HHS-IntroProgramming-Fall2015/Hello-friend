@@ -30,6 +30,6 @@ if (pythonage > ageint):
 if (int(age) < pythonage) :
     agestr = int(age)-pythonage + "years younger than python."
 if (int(age) == pythonage):
-    agestr - "the same age as python."
+    agestr = "the same age as python."
 print ("Allo ", nom , ". Vous etes ", agestr)
 
