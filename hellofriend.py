@@ -24,7 +24,8 @@ age = input("Quel age est vous?")
 ageint = int(age)
 
 pythonage = datetime.now().year - 1991
-
+print(pythonage)
+print(ageint)f
 if (pythonage > ageint):
     print (pythonage - ageint , "years older than python.")
 if (pythonage < ageint) :
