@@ -25,7 +25,7 @@ ageint = int(age)
 
 pythonage = datetime.now().year - 1991
 print(pythonage)
-print(ageint)f
+print(ageint)
 if (pythonage > ageint):
     print (pythonage - ageint , "years older than python.")
 if (pythonage < ageint) :
