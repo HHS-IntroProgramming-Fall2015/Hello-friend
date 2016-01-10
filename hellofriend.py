@@ -17,8 +17,8 @@ Note that the text: "Guido" and "16" are entered by the user running the program
 The final line ("Hello...") is generated dynamically when you run the program, based 
 on the name and age that the user enters.
 """
-name = input("What is your name?")
-age  = input("What is your age?")
+name = input("Please tell me your name:")
+age  = input("Please tell me your age:")
 pythonage = 25
 dif = pythonage - int(age)
 print("Hello,", name,".Python is", dif, "years older than you are!")
