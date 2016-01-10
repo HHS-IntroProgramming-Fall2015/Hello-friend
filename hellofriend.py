@@ -17,14 +17,17 @@ Note that the text: "Guido" and "16" are entered by the user running the program
 The final line ("Hello...") is generated dynamically when you run the program, based 
 on the name and age that the user enters.
 """
+import datetime from datetime
+
+
 nom = input("Comment appelez-vous?")
 age = input("Quel age est vous?")
 pythonage = datetime.now().year - 1991
 if (pythonage > int(age)):
     agestr = pythonage - int(age) + "years older than python."
-if (agint(age)e < pythonage) :
+if (int(age) < pythonage) :
     agestr = int(age)-pythonage + "years younger than python."
-if (agint(age)e == pythonage):
+if (int(age) == pythonage):
     agestr - "the same age as python."
     
 print ("Allo ", nom , ". Vous etes ", agestr)
