@@ -1,7 +1,7 @@
 """
 hellofriend.py
 Author: <your name here>
-Credit: <list sources used, if any>
+Credit: Payton; Payton; Payton some more; and oh wait, more Payton
 
 Assignment:
 
@@ -20,11 +20,14 @@ on the name and age that the user enters.
 name = input("What is your name?")
 age = int(input("How old are you?"))
 if(age>25):
-    print("Hello, " + name "Python is " age)
-"""
+    s= "Hello, {0}. Python is {1} years {2} than you are!"  
+    print(s.format(name, age-25, "younger"))
+    
+
+
 if(age==25):
     
 
 if(age<25):
-"""
+
 
