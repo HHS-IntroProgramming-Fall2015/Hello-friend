@@ -23,7 +23,7 @@ b=float(b)
 b=float(25-b)
 z=(b*b)**.5
 c="Hello, "
-d=".  Python is "
+d=". Python is "
 if b>0:
     e=" years older than you"
 else:
