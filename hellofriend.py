@@ -1,7 +1,7 @@
 """
 hellofriend.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: <Adam Glueck>
+Credit: <Avery for help with if statement notatin>
 
 Assignment:
 
@@ -17,3 +17,15 @@ Note that the text: "Guido" and "16" are entered by the user running the program
 The final line ("Hello...") is generated dynamically when you run the program, based 
 on the name and age that the user enters.
 """
+a=input("Please tell me your name:")
+b=input("Please tell me your age:")
+b=float(b)
+b=float(25-b)
+z=(b*b)**.5
+c="Hello, "
+d=".  Python is "
+if b>0:
+    e=" years older than you"
+else:
+    e=" years younger than you"
+print(c+a+d+str(z)+e)
