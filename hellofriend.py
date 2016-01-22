@@ -23,4 +23,4 @@ p = 2015 - 1991
 r = p - a
 r = str(r)
 
-print("Hello,"+ n + " Python is " + r + " years older than you are!")
+print("Hello,"+ n + ". Python is " + r + " years older than you are!")
