@@ -1,7 +1,7 @@
 """
 hellofriend.py
-Author: <ETHAN ADNER>
-Credit: <none>
+Author: ETHAN ADNER
+Credit: none
 Assignment:
 
 Write and submit an interactive Python program that asks for the user's name and age, 
