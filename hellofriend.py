@@ -1,7 +1,7 @@
 """
 hellofriend.py
 Author: Payton
-Credit: <list sources used, if any>
+Credit: triggerntatie, Andreas
 
 Assignment:
 
@@ -18,5 +18,6 @@ The final line ("Hello...") is generated dynamically when you run the program, b
 on the name and age that the user enters.
 """
 user = input("Please tell me your name: ")
-user = input("Please tell me your age: ")
-
+age = int(input("Please tell me your age: "))
+s = ("Hello, {0}. Python is {1} years older than you are!")
+print(s.format(user, 25-age))
