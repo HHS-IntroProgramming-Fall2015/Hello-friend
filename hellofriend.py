@@ -20,5 +20,5 @@ on the name and age that the user enters.
 
 name=input("What is your name? ")
 age=input("What is your age? ")
-AgeDiff=25-int(age)
+AgeDiff=25-age
 print("Hello, "+name+".  Python is "+str(AgeDiff)+" years older than you are!")
