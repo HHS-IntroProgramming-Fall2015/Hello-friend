@@ -17,3 +17,14 @@ Note that the text: "Guido" and "16" are entered by the user running the program
 The final line ("Hello...") is generated dynamically when you run the program, based 
 on the name and age that the user enters.
 """
+name = input("What is your name?")
+age = int(input("How old are you?"))
+if(age>25):
+    print("Hello, " + name "Python is " age)
+"""
+if(age==25):
+    
+
+if(age<25):
+"""
+
