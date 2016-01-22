@@ -23,4 +23,4 @@ if(age_diff>=0):
     print("Hello, {0}. Python is {1} years older than you are!".format(name, age_diff))
 elif(age_diff<=0):
     age_diff=-age_diff
-    print("Hello, {0}. Python is {1} years older than you are!".format(name, age_diff))
+    print("Hello, {0}. Python is {1} years younger than you are!".format(name, age_diff))
