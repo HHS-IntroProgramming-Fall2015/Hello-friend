@@ -8,7 +8,7 @@ Credit: None
 
 a = input('Please tell me your name:')
 b = input('Please tell me your age:')
-b = float(b)
+b = int(b)
 d = (25-b)
 e = "Hello, "
 f = ". I am "
