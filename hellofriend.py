@@ -1,7 +1,7 @@
 """
 hellofriend.py
-Author: <your name here>
-Credit: Payton; Payton; Payton some more; and oh wait, more Payton
+Author: Andreas
+Credit: Payton; Payton; Payton some more; and oh wait, more Payton; have some more Payton
 
 Assignment:
 
@@ -24,10 +24,11 @@ if(age>25):
     print(s.format(name, age-25, "younger"))
     
 
-
 if(age==25):
-    
+    q="Hello, {0}. Python is the same age as you are!"
+    print(q.format(name))
+
 
 if(age<25):
-
+    print(s.format(name, 25-age, "older"))
 
