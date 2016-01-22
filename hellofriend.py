@@ -16,11 +16,11 @@ Note that the text: "Guido" and "16" are entered by the user running the program
 The final line ("Hello...") is generated dynamically when you run the program, based 
 on the name and age that the user enters.
 """
-name=str(input("What is your name?"))
-age=int(input("What is your age?"))
+name=str(input("Please tell me your name:"))
+age=int(input("Please tell me your age:"))
 age_diff=25-age
 if(age_diff>=0):
-    print("Hello {0}. Python is approximatly {1} years older than you".format(name, age_diff))
+    print("Hello, {0}. Python is {1} years older than you are!".format(name, age_diff))
 elif(age_diff<=0):
     age_diff=-age_diff
-    print("Hello "+{0}+". Python is approximatly "+{1}+" years younger than you".format(name, age_diff))
+    print("Hello, {0}. Python is {1} years older than you are!".format(name, age_diff))
