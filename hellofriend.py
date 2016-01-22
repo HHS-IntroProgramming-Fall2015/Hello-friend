@@ -6,8 +6,8 @@ Credit: None
 
 """
 
-a = input('What is your name?')
-b = input('How old are you?')
+a = input('Please tell me your name?')
+b = input('Please tell me your age?')
 b = float(b)
 d = (25-b)
 e = "Hello, "
