@@ -22,10 +22,6 @@ a=input("Please tell me your age: ")
 a = int(a)
 b = 2016-a
 d = b-1991
-h ="Hello, "
-p =". Python is "
-y =" years older than you are!"
 a = str(a)
 d = str(d)
-print(h + n + p + d + y)
-print("hello" + n + "python is")
+print("Hello, " + n + ". Python is " + d + " years older than you are!")
