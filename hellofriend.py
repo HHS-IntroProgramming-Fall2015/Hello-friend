@@ -1,5 +1,3 @@
-"""
-
 hellofriend.py
 Author: Avery Wallis
 Credit: None
@@ -14,7 +12,6 @@ Hello, Guido. Python is 8 years older than you are!
 Note that the text: "Guido" and "16" are entered by the user running the program. 
 The final line ("Hello...") is generated dynamically when you run the program, based 
 on the name and age that the user enters.
-"""
 
 a = input('Please tell me your name: ')
 b = input('Please tell me your age: ')
