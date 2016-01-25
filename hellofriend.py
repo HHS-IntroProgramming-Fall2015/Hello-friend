@@ -19,8 +19,8 @@ on the name and age that the user enters.
 """
 name = input("What is your name?")
 age = int(input("How old are you?"))
+s= "Hello, {0}. Python is {1} years {2} than you are!"
 if(age>25):
-    s= "Hello, {0}. Python is {1} years {2} than you are!"  
     print(s.format(name, age-25, "younger"))
     
 
