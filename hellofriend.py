@@ -21,6 +21,6 @@ x = str(input("Please tell me your name: "))
 y = int(input("Please tell me your age: "))
 age=25
 agediff=age-y
-print(agediff)
+agediff=str(agediff)
 
 print("Hello, "+x+". Python is "+agediff+" years older than you are!")
