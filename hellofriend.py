@@ -17,9 +17,12 @@ Note that the text: "Guido" and "16" are entered by the user running the program
 The final line ("Hello...") is generated dynamically when you run the program, based 
 on the name and age that the user enters.
 """
-x = input("Please tell me your name: ")
-y = input("Please tell me your age: ")
+x = str(input("Please tell me your name: "))
+y = int(input("Please tell me your age: "))
+age=25
+agediff=age-y
+print(agediff)
 
-print("Hello, "+x+"rfggg")
+print("Hello, "+x+".")
 
-
+c = int(input(""))
