@@ -20,6 +20,6 @@ on the name and age that the user enters.
 x = input("Please tell me your name: ")
 y = input("Please tell me your age: ")
 
-print("Hello, "+x+"rfggg"
+print("Hello, "+x+"rfggg")
 
 
