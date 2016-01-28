@@ -24,5 +24,3 @@ agediff=age-y
 print(agediff)
 
 print("Hello, "+x+".")
-
-c = int(input(""))
