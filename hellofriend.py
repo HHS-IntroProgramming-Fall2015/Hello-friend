@@ -19,7 +19,6 @@ on the name and age that the user enters.
 """
 
 a = input("Please tell me your name: ")
-print(a)
 b = input("Please tell me your age: ")
 b = float(b)
 c = int(-b) + 25
