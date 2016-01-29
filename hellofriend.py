@@ -1,7 +1,7 @@
 """
 hellofriend.py
 Author: Adam Glueck
-Credit: Avery for help with if statement notatin>
+Credit: Avery for help with if statement notation
 
 Assignment:
 
