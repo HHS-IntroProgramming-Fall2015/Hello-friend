@@ -1,7 +1,7 @@
 """
 hellofriend.py
-Author: <Adam Glueck>
-Credit: <Avery for help with if statement notatin>
+Author: Adam Glueck
+Credit: Avery for help with if statement notatin>
 
 Assignment:
 
@@ -28,4 +28,4 @@ if b>0:
     e=" years older than you are"
 else:
     e=" years younger than you are!"
-print(c+a+d+str(z)+e)
+print(c+a+d+int(z)+e)
