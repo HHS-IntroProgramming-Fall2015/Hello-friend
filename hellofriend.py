@@ -21,11 +21,11 @@ a=input("Please tell me your name:")
 b=input("Please tell me your age:")
 b=float(b)
 b=float(25-b)
-z=(b*b)**.5
+z=int((b*b)**.5)
 c="Hello, "
 d=". Python is "
 if b>0:
     e=" years older than you are"
 else:
     e=" years younger than you are!"
-print(c+a+d+int(z)+e)
+print(c+a+d+str(z)+e)
