@@ -23,4 +23,4 @@ b=input("Please tell me your age: ")
 b=int(b)
 c= 25-b
 c = str(c)
-print("Hello, " + a + ". Python is " + c + " years older than you!") 
+print("Hello, " + a + ". Python is " + c + " years older than you are!") 
