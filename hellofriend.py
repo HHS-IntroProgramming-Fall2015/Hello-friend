@@ -21,5 +21,5 @@ name=input("Please tell me your name")
 age=input("Please tell me your age")
 python=25
 diff=python-int(age)
-s="Hello,"+name+"You are {0} years younger than python"
+s="Hello, "+name+" You are {0} years younger than python"
 print(s.format(diff))
