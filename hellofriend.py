@@ -1,7 +1,7 @@
 """
 hellofriend.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Robbie
+Credit: Introuction to Github with Runpython and Introduction to Runpython
 
 Assignment:
 
