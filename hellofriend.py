@@ -19,5 +19,4 @@ on the name and age that the user enters.
 """
 n = input("Please tell me your name: ")
 a = input("Please tell me your age: ")
-s = "Hello, {0}. Python is {1} years older than you are!"
-print(s.function(name, int(25-a)))
+print("Hello, {0}. Python is {1} years older than you are!".format(n, 25-int(a)))
