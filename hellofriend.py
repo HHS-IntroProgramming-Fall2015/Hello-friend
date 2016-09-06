@@ -21,4 +21,4 @@ friend =input('please tell me your name')
 age =input('please tell me your age')
 age2=25
 difference = age2 - int(age)
-print("Hello, {0}. Python is {1} years older than you are!".format(age, difference))
+print("Hello, {0}. Python is {1} years older than you are!".format(friend, difference))
