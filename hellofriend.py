@@ -20,6 +20,7 @@ on the name and age that the user enters.
 name=input("Please tell me your name: ")
 age=input("Please tell me your age: ")
 agenum=int(age)
-agediff=25-agenum
+YOB=2016-agenum
+agediff=YOB-1991
 agediffstr=str(agediff)
 print ("Hello, " + name + ". Python is " + agediffstr + " years older than you are")
