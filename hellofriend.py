@@ -22,4 +22,4 @@ age = input ("Please tell me your age: ")
 kotz=int(age) 
 num=25-kotz
 string=str(num)
-print ("Hello " + name + ". Python is " + string + " years older than you are!")
+print ("Hello, " + name + ". Python is " + string + " years older than you are!")
