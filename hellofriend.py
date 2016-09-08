@@ -22,4 +22,4 @@ age = input("Please tell me your age:")
 agenum=int(age)
 diff=25-agenum
 diff= str(diff)
-print ("Hello, " + name + ". python " + "is " + diff +" years older than you are!" )
+print ("Hello, " + name + ". Python " + "is " + diff +" years older than you are!" )
