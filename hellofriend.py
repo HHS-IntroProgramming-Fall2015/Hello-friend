@@ -21,5 +21,4 @@ name= input("Please tell me your name: ")
 age= input("Please tell me your age: ")
 Pythonage= 25
 Subtraction= Pythonage - int(age)
-print(Subtraction)
 print("Hello, " + name + ". Python is " + str(Subtraction) + " years older than you are!")
