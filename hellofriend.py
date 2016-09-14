@@ -21,5 +21,5 @@ friend=input("Please tell me your name: ")
 f_age=input("Please tell me your age: ")
 p_age=25
 diff=int(p_age) - int(f_age)
-s1= "Hello{0}. Python is {1} years older than you are!"
+s1= "Hello {0}. Python is {1} years older than you are!"
 print(s1.format(friend,diff))
