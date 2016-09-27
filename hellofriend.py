@@ -1,7 +1,7 @@
 """
 hellofriend.py
-Author: <xNimbleNavigatorx>
-Credit: <not kezar, github tutorial>
+Author: NimbleNavigatorx
+Credit: github tutorial
 Assignment:
 Write and submit an interactive Python program that asks for the user's name and age, 
 then prints how much older Python is than the user (based on a simple comparison of 
