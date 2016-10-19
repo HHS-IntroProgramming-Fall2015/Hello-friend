@@ -19,4 +19,4 @@ on the name and age that the user enters.
 """
 name = input(" Please tell me your name: ")
 age = input(" Please tell me your age: ")
-print("Hello, " + name + ". Python is " + str(25 - int(age)) +" years older than you are! ")
+print("Hello, " + name + ". Python is " + str(25 - int(age)) +" years older than you are!")
