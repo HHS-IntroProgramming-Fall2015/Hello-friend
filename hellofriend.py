@@ -18,6 +18,6 @@ The final line ("Hello...") is generated dynamically when you run the program, b
 on the name and age that the user enters.
 """
 
-user = input("Please tell me your name.")
-age = input("Please tell me your age.")
+user = input("Please tell me your name: ")
+age = input("Please tell me your age: ")
 print("Hello, {0}. Python is {1} years older than you are!".format(user, 26-int(age)))
