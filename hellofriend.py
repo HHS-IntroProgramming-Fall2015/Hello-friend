@@ -18,5 +18,6 @@ The final line ("Hello...") is generated dynamically when you run the program, b
 on the name and age that the user enters.
 """
 
-name=input("Please tell me your name: Earl")
-age=input("Please tell me you age: 16")
+name=input("Please tell me your name: ")
+age=input("Please tell me you age: ")
+print("Hello, 
