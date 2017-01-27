@@ -17,3 +17,9 @@ Note that the text: "Guido" and "16" are entered by the user running the program
 The final line ("Hello...") is generated dynamically when you run the program, based 
 on the name and age that the user enters.
 """
+name = input("please tell me your name: ")
+age = input("please tell me your age: ")
+s1 = name
+s2 = age
+s3 = "Hello, {0}. Python is {0} years older than you are!"
+print(s3.format(s1,26-int(s2)))
