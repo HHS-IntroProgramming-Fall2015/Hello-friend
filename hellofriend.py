@@ -1,7 +1,7 @@
 """
 hellofriend.py
 Author: Abby Feyrer
-Credit: <list sources used, if any>
+Credit: none
 
 Assignment:
 
