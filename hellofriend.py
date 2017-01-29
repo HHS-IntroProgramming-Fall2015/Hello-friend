@@ -21,5 +21,5 @@ name = input("please tell me your name: ")
 age = input("please tell me your age: ")
 s1 = name
 s2 = age
-s3 = "Hello, {0}. Python is {0} years older than you are!"
+s3 = "Hello, {0}. Python is {1} years older than you are!"
 print(s3.format(s1,26-int(s2)))
