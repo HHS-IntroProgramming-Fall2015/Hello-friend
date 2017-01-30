@@ -20,4 +20,4 @@ on the name and age that the user enters.
 name = input("Please tell me your name.")
 age = input("What is your age?")
 diff = 26 - int(age)
-print("Hello, " + name + ". Python is " + str(diff) + " years older than you.")
+print("Hello, " + name + ". Python is " + str(diff) + " years older than you!")
