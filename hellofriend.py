@@ -1,7 +1,7 @@
 """
 hellofriend.py
 Author: Earl Barrowes
-Credit: None
+Credit: ethan
 
 Assignment:
 
