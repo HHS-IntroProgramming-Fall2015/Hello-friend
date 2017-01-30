@@ -1,7 +1,7 @@
 """
 hellofriend.py
-Author: <Daniel Pinigin>
-Credit: <Brendan>
+Author: Daniel Pinigin
+Credit: Brendan
 
 Assignment:
 
