@@ -21,4 +21,4 @@ name = input("Please tell me your name")
 age = int(input("Please tell me your age"))
 s2 = "Python is {0} years older than you."
 print (name)
-print(s2.format(1991-age))
+print(s2.format(26-age))
