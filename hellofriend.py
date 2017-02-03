@@ -20,6 +20,6 @@ on the name and age that the user enters.
 
 a = input("Please tell me your name: ")
 b = input("Please tell me your age: ")
-f = "Hello, {0}. Python is {1} years older than you!"
+f = "Hello, {0}. Python is {1} years older than you are!"
 print(f.format(a,26-int(b)))
 
