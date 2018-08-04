@@ -1,7 +1,8 @@
 """
 hellofriend.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: nathalie
+Credit: Kai, Mr. D
+hey
 
 Assignment:
 
@@ -17,3 +18,10 @@ Note that the text: "Guido" and "16" are entered by the user running the program
 The final line ("Hello...") is generated dynamically when you run the program, based 
 on the name and age that the user enters.
 """
+name= input ("Please tell me your name:")
+period = "."
+x = input("Please tell me your age:")
+y = int(x)
+n = 26
+print("Hello,",name+period) 
+print("Python is",n-y,"years older than you are!")
