@@ -1,7 +1,7 @@
 """
 hellofriend.py
-Author: <Jackson>
-Credit: <None>
+Author: Jackson
+Credit: None
 
 Assignment:
 
