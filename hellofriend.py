@@ -1,7 +1,7 @@
 """
 hellofriend.py
-Author: <Nick Lee>
-Credit: <list sources used, if any>
+Author: Nick Lee
+Credit:
 
 Assignment:
 
