@@ -1,7 +1,7 @@
 """
 hellofriend.py
 Author: Andrew Chen
-Credit:
+Credit: none
 https://github.com/HHS-IntroProgramming/Standards-and-Syllabus/wiki/Introduction-to-Github-with-Runpython#input
 https://github.com/HHS-IntroProgramming/Standards-and-Syllabus/wiki/Introduction-to-Github-with-Runpython#questions-1
 
