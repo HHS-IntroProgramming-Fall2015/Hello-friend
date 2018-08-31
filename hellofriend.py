@@ -1,6 +1,6 @@
 """
 hellofriend.py
-Author: <your name here>
+Author: <Jackson>
 Credit: <list sources used, if any>
 
 Assignment:
@@ -20,5 +20,5 @@ on the name and age that the user enters.
 
 name=input("Please tell me your name: ")
 age=input("Please tell me your age: ")
-python=((int(age)+1991)-)       "Is there a current day program?"
+python=(-int(age)-1991+2015)
 print("Hello, " + name +". Python is " + str(python) + " years older than you are!")
