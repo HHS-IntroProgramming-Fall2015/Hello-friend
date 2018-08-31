@@ -23,6 +23,8 @@ y=27-int(a)
 if y<0:
     y=str(abs(y))
     print("Hello, {0}. Python is {1} years younger than you are!".format(n,y))
-else:
+elif y>0:
     y=str(y)
     print("Hello, {0}. Python is {1} years older than you are!".format(n,y))
+else:
+    print("Hello, {0}. Python is just as old as you are!".format(n)
