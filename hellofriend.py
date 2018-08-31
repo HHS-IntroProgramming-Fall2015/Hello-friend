@@ -1,6 +1,6 @@
 """
 hellofriend.py
-Author: <your name here>
+Author: <Nick Lee>
 Credit: <list sources used, if any>
 
 Assignment:
