@@ -19,4 +19,6 @@ on the name and age that the user enters.
 """
 name = input("Please tell me your name: ")
 age = input("Please tell me your age: ")
+how_much = 27-age
 print ("Hello, "+ name +". Python is "+ age +" years older than you are!")
+print ("Hello, "+ name +". Python is "+ how_much +" years older than you are!")
