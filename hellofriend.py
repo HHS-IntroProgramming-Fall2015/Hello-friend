@@ -21,4 +21,5 @@ name = input("Please tell me your name ")
 print (name)
 age = input("Please tell me your age ")
 print (age)
-print ("Hello, + name. Python is 27 - age. ")
+older = 27-age
+print ("Hello, var.name. Python is var.older years older than you are!")
