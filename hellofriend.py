@@ -20,4 +20,3 @@ on the name and age that the user enters.
 name = input("Please tell me your name: ")
 age = input("Please tell me your age: ")
 print ("Hello, "+ name +". Python is "+ age +" years older than you are!")
-print ("Hello, "+ name +". Python is "+ (s2.format(age - 27)) +" years older than you are!")
