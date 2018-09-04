@@ -18,7 +18,7 @@ The final line ("Hello...") is generated dynamically when you run the program, b
 on the name and age that the user enters.
 """
 name = input ("What is your name?")
-age = ("What is your age?")
+age = input("What is your age?")
 pyage = 2018 - 1991
-difage = pyage - age
-print(difage)
+difage = int(pyage) - int(age)
+print("Hello " + str(name) + ". Python is " + str(difage) + " years older than you are!")
