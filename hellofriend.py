@@ -1,9 +1,9 @@
 """
 hellofriend.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Alice Frederick
+Credit: None
 
-Assignment:
+Assignment: Hello, friend
 
 Write and submit an interactive Python program that asks for the user's name and age, 
 then prints how much older Python is than the user (based on a simple comparison of 
