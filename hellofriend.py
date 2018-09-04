@@ -17,3 +17,8 @@ Note that the text: "Guido" and "16" are entered by the user running the program
 The final line ("Hello...") is generated dynamically when you run the program, based 
 on the name and age that the user enters.
 """
+name = input ("What is your name?")
+age = ("What is your age?")
+pyage = 2018 - 1991
+difage = pyage - age
+print(difage)
