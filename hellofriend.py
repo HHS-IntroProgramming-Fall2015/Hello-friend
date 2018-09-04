@@ -1,7 +1,7 @@
 """
 hellofriend.py
 Author: Joe Brennan
-Credit: <list sources used, if any>
+Credit: none
 
 Assignment:
 
