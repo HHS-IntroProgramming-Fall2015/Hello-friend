@@ -1,8 +1,8 @@
 
 """
 hellofriend.py
-Author: <Johari>
-Credit: <none>
+Author: Johari
+Credit: none
 Assignment:
 Write and submit an interactive Python program that asks for the user's name and age, 
 then prints how much older Python is than the user (based on a simple comparison of 
