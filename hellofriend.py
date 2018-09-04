@@ -17,7 +17,10 @@ Note that the text: "Guido" and "16" are entered by the user running the program
 The final line ("Hello...") is generated dynamically when you run the program, based 
 on the name and age that the user enters.
 """
-name = input("Hello! What's your name?   ")
+name = input("What's your name?   ")
 age = input("How old are you?   ")
-s1 = "You are {0} years old."
-
+reply = "You are {0} years old."
+math = "In 5 years you will be {reply} years old."
+print(reply.format(age))
+print(math.format(27 - age))
+print("Hello there, " + name + " , phython is " + name + " years older than you.") 
