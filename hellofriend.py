@@ -20,8 +20,8 @@ on the name and age that the user enters.
 a=input("Please tell me your name: ")
 b=float(input("Please tell me your age: "))
 if b<27: 
-    print('Hello', a, 'python is',27-b,'years older than you are!')
+    print('Hello,', a + '. Python is',27-b,'years older than you are!')
 if b==27:
-    print('Hello,', a, 'python is as old as you are!')
+    print('Hello,', a + '. Python is as old as you are!')
 if b>27:
-    print('Hello,',a,'python is',b-27,'years younger than you are!')
+    print('Hello,',a + '. Python is',b-27,'years younger than you are!')
