@@ -21,6 +21,8 @@ on the name and age that the user enters.
 #print("Hi, " + name + ". I like you :)")
 
 name = input("Please tell me your name: ")
-age = input("Please tell me your age: ")
+age = int(input("Please tell me your age: "))
+a = 2018 - age
+b = a- 1991
 
-print("Hello, " + name + ". Python is")
+print("Hello, " + name + ". Python is" str(b) " years older than you!" )
