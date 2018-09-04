@@ -19,4 +19,5 @@ on the name and age that the user enters.
 """
 name = input("Hello! What's your name?   ")
 age = input("How old are you?   ")
+s1 = "You are {0} years old."
 
