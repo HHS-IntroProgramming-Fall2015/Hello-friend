@@ -19,4 +19,5 @@ on the name and age that the user enters.
 """
 name = input("What's your name?   ")
 age = input("How old are you?   ")
-print("Hello there, " + name + ", phython is " + name + " years older than you.") 
+math = (27 - str(age))
+print("Hello there, " + name + ", phython is " + math + " years older than you.")
