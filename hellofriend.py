@@ -20,7 +20,7 @@ on the name and age that the user enters.
 import datetime
 year = datetime.datetime.now().year
 name = input('Please tell me your name: ')
-age = float(input('Please tell me your age: '))
+age = int(input('Please tell me your age: '))
 c = year-age
 d = c-1991
 print('Hello, '  +str(name) +str('. Python is ') +str(d) +str(' years older than you are!'))
