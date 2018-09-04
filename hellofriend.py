@@ -3,7 +3,7 @@ age= int(input("What is your age? "))
 a=age
 b=27
 c=b-a
-print("Hello",name, "python is ", c , "years older than you ")
+print("Hello," ,name, ". Python is ", c , "years older than you are!! ")
 
 
 
