@@ -1,7 +1,7 @@
 """
 hellofriend.py
-Author: <Katie Naughton>
-Credit: <I worked by myself.>
+Author: Katie Naughton
+Credit: I worked by myself.
 
 Assignment:
 
