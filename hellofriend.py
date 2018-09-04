@@ -17,6 +17,7 @@ Note that the text: "Guido" and "16" are entered by the user running the program
 The final line ("Hello...") is generated dynamically when you run the program, based 
 on the name and age that the user enters.
 """
+yes = true
 name = input ("Please tell your name?")
 age = input("Please tell your age?")
 pyage = 2018 - 1991
