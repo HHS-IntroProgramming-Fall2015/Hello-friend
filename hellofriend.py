@@ -1,7 +1,7 @@
 """
 hellofriend.py
 Author: Patrick Daley
-Credit: Peers
+Credit: Peers helped me figure out that I had to put commas in between the different 
 
 Assignment:
 
