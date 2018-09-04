@@ -1,3 +1,20 @@
+name= input("Hello, what is your first name? ")
+age= int(input("What is your age? "))
+a=age
+b=27
+c=b-a
+print("Hello",name, "python is ", c , "years older than you ")
+
+
+
+
+
+
+
+
+
+
+
 """
 hellofriend.py
 Author: <your name here>
