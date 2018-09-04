@@ -1,9 +1,9 @@
-name= input("Please tell me your name:")
+name= input("Please tell me your name: ")
 age= int(input("Please tell me your age"))
 a=age
 b=27
 c=b-a
-print("Hello, "+name+". Python is", c ,"years older than you are!")
+print("Hello, " +name+". Python is", c ,"years older than you are!")
 
 
 
