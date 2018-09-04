@@ -1,7 +1,9 @@
 """
 hellofriend.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Andrew Chen
+Credit: none
+https://github.com/HHS-IntroProgramming/Standards-and-Syllabus/wiki/Introduction-to-Github-with-Runpython#input
+https://github.com/HHS-IntroProgramming/Standards-and-Syllabus/wiki/Introduction-to-Github-with-Runpython#questions-1
 
 Assignment:
 
@@ -17,3 +19,9 @@ Note that the text: "Guido" and "16" are entered by the user running the program
 The final line ("Hello...") is generated dynamically when you run the program, based 
 on the name and age that the user enters.
 """
+
+name = input("Please tell me your name: ")
+age = input("Please tell me your age: ")
+text = "Hello, {0}. Python is {1} years older than you are!"
+print(text.format(name, 27-int(age)))
+
