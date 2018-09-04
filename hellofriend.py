@@ -1,5 +1,5 @@
 name= input("Please tell me your name: ")
-age= int(input("Please tell me your age"))
+age= int(input("Please tell me your age: "))
 a=age
 b=27
 c=b-a
