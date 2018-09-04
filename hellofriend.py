@@ -21,5 +21,4 @@ on the name and age that the user enters.
 name=input('Please tell me your name: ')
 age = int(input('Please tell me your age: '))
 yearsolder = (27-age)
-
 print('Hello,',name,'. Python is ',yearsolder,' years older than you are!')
