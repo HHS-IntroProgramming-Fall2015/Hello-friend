@@ -1,7 +1,7 @@
 """
 hellofriend.py
 Author: Patrick Daley
-Credit: Peers helped me figure out that I had to put commas in between the different 
+Credit: Peers helped me figure out that I needed to put a string in this one place.
 
 Assignment:
 
@@ -25,4 +25,4 @@ age = int(input("Please tell me your age: "))
 a = 2018 - age
 b = a- 1991
 
-print("Hello,",name,". Python is",b," years older than you!")
+print("Hello," + name + ". Python is " + str(b) + " years older than you!")
