@@ -20,10 +20,8 @@ on the name and age that the user enters.
 name = input("What's your name?   ")
 age = input("How old are you?   ")
 math = (27 - int(age))
-if math > 0
+if math > 0:
     print("Hello there, " + name + ", phython is " + str(math) + " years older than you.")
-    print("This is always printed.")
 
 if math < 0:
-      print("Hello there, " + name + ", you are " + str(math) + " years older than python.")
-print("This is also always printed.")
+      print("Hello there, " + name + ", you are " + str(math*-1) + " years older than python.")
