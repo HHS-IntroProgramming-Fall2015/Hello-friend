@@ -1,5 +1,6 @@
 import datetime
 Year=datetime.datetime.now().year
+
 """
 hellofriend.py
 Author: Pierre Mayo
@@ -22,5 +23,9 @@ on the name and age that the user enters.
 
 Name=input("Please tell me your name: ")
 Age=input("Please tell me your age: ")
-x=int(Age)
-print("Hello, " + Name + ". Python is " + 27-x + " years older than you!")
+
+x=int(Year)
+y=int(Age)
+PythonAge=Year-1991
+
+print("Hello, " + Name + ". Python is " + x-y + " years older than you!")
