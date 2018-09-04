@@ -18,5 +18,5 @@ on the name and age that the user enters.
 a = input("Please tell me your name: ") 
 b = input("Please tell me your age: ") 
 int(b)<= 27 
-s = "Python is {0} years older than you!" 
+s = "Python is {0} years older than you are!" 
 print("Hello, " + a + ". " + s.format(27-int(b)))
