@@ -1,7 +1,10 @@
+import datetime
+year=datetime.datetime.now().year
+
 """
 hellofriend.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Kyle Rozzi
+Credit: I did this on my own
 
 Assignment:
 
@@ -17,3 +20,15 @@ Note that the text: "Guido" and "16" are entered by the user running the program
 The final line ("Hello...") is generated dynamically when you run the program, based 
 on the name and age that the user enters.
 """
+
+name = input('What is your name? ')
+
+age = input('How old are you? ')
+
+pythonage=year-1991
+
+c=int(age)
+
+d=year-c
+
+print("Hi, "+ name +", Python is "+ str(pythonage-c) +" years older than you.")
