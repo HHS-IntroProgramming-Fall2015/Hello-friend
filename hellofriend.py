@@ -21,7 +21,4 @@ name = input ("What is your name?")
 age = input("What is your age?")
 pyage = 2018 - 1991
 difage = int(pyage) - int(age)
-if difage >= 0
-    print("Hello " + str(name) + ". Python is " + str(difage) + " years older than you are!")
-    else 
-    print("Hello " + str(name) + ". Python is " + str(abs(difage)) + " years younger than you are!")
+print("Hello " + str(name) + ". Python is " + str(difage) + " years older than you are!")
