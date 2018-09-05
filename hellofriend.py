@@ -1,6 +1,3 @@
-import datetime
-Year=datetime.datetime.now().year
-
 """
 hellofriend.py
 Author: Pierre Mayo
@@ -20,6 +17,8 @@ Note that the text: "Guido" and "16" are entered by the user running the program
 The final line ("Hello...") is generated dynamically when you run the program, based 
 on the name and age that the user enters.
 """
+import datetime
+Year=datetime.datetime.now().year
 
 Name=input("Please tell me your name: ")
 Age=input("Please tell me your age: ")
