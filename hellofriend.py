@@ -24,7 +24,7 @@ age = input('Hi ' + name + '. How old are you?: ')
 a = (27 - int(age))
 
 if a > 0:
-    print('Did you know that you are ' + str(a)+ ' years younger than python?')
+    print('Did you know that you are ' + str(a) + ' years younger than python?')
     
 if a < 0:
     print('Did you know that you are ' +str(a*-1) + ' years older than python?' )
