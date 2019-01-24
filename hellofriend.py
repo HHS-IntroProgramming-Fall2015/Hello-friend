@@ -17,3 +17,9 @@ Note that the text: "Guido" and "16" are entered by the user running the program
 The final line ("Hello...") is generated dynamically when you run the program, based 
 on the name and age that the user enters.
 """
+# I had already writted this code and pasted it into a google doc. It has been pasted back into the runpython.
+A = (input("Please tell me your name: "))
+B = float(input("Please tell me your age: "))
+C = int(B)
+D = (28-C)
+print("Hello " + (A) + ", python is " + str(D) + " older than you are!")
