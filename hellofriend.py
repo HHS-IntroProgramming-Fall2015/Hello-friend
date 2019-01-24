@@ -1,7 +1,7 @@
 """
 hellofriend.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Walter Schutz
+Credit: Curtis helped a little and I looked at the schoology tutorials.
 
 Assignment:
 
