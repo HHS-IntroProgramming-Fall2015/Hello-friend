@@ -18,7 +18,7 @@ The final line ("Hello...") is generated dynamically when you run the program, b
 on the name and age that the user enters.
 """
 
-name = input("Please tell me your first name: ")
+name = input("Please tell me your name: ")
 age = input("Please tell me your age: ")
 
 age_diff =(2019-(int(age)))-1991
