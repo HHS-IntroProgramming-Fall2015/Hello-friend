@@ -22,6 +22,6 @@ age = int(input("Please tell me your age: "))
 
 diff = 28 - age
 
-print("Hello,", name+". Python is ", diff, "years older than you are!")
+print("Hello,", name+". Python is", diff, "years older than you are!")
 
     
