@@ -20,11 +20,11 @@ on the name and age that the user enters.
 import datetime
 
 name = input("Please tell me your name: ")
-age = int(input("Please tell me your age: "))
+age = float(input("Please tell me your age: "))
 
 releaseyear = 1991
 now = datetime.datetime.now()
-currentyear = int(now.year)
+currentyear = float(now.year)
 birthyear = currentyear - age
 
 agedif = birthyear - releaseyear
