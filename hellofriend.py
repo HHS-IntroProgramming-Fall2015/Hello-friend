@@ -24,11 +24,11 @@ name = input("What is your name?")
 user_age = int(input("How old are you?"))
 python_age = current_year - 1991
 difference = user_age - python_age
-if difference > 0:
+if (difference > 0):
     print("Hello, " + name + ". You are " + str(difference) + " years older than Python.")
-elif difference < 0:
+elif (difference < 0):
     print("Hello, " + name + ". Python is " + str(-difference) + " years older than you.")
-elif difference == 0:
+elif (difference == 0):
     print("Hello, " + name + ". You and Pythhon are the same age.")
 
     
