@@ -1,6 +1,6 @@
 """
 hellofriend.py
-Author: Walter Schutz
+Author: waSclthu11
 Credit:  I looked at the schoology tutorials.
 
 Assignment:
@@ -23,3 +23,4 @@ B = float(input("Please tell me your age: "))
 C = int(B)
 D = (28-C)
 print("Hello, " + (A) + ". Python is " + str(D) + " older than you are!")
+
