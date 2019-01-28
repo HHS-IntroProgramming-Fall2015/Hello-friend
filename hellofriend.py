@@ -18,8 +18,8 @@ The final line ("Hello...") is generated dynamically when you run the program, b
 on the name and age that the user enters.
 """
 
-name = input("Please input name.")
-birthyear = int(input("Please input year of birth."))
+name = input("Please tell me your name.")
+birthyear = int(input("Please tell me your year of birth."))
 releaseyear = 1991
 
 agedif = birthyear - releaseyear
