@@ -1,7 +1,7 @@
 """
 hellofriend.py
 Author: Walter Schutz
-Credit: Curtis helped a little and I looked at the schoology tutorials.
+Credit:  I looked at the schoology tutorials.
 
 Assignment:
 
@@ -22,4 +22,4 @@ A = (input("Please tell me your name: "))
 B = float(input("Please tell me your age: "))
 C = int(B)
 D = (28-C)
-print("Hello " + (A) + ", python is " + str(D) + " older than you are!")
+print("Hello, " + (A) + ". Python is " + str(D) + " older than you are!")
