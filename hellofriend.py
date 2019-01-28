@@ -17,10 +17,15 @@ Note that the text: "Guido" and "16" are entered by the user running the program
 The final line ("Hello...") is generated dynamically when you run the program, based 
 on the name and age that the user enters.
 """
+import datetime
 
-name = input("Please tell me your name.")
-birthyear = int(input("Please tell me your year of birth."))
+name = input("Please tell me your name: ")
+age = int(input("Please tell me your age: "))
+
 releaseyear = 1991
+now = datetime.datetime.now()
+currentyear = int(now.year)
+birthyear = currentyear - age
 
 agedif = birthyear - releaseyear
 pnagedif = abs(agedif)
