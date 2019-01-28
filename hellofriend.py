@@ -31,12 +31,12 @@ agedif = birthyear - releaseyear
 pnagedif = abs(agedif)
 
 if agedif == -1:
-    print("Hello, {0}. Python is 1 year younger than you!".format(name))
+    print("Hello, {0}. Python is 1 year younger than you are!".format(name))
 elif agedif == 1:
-    print("Hello, {0}. Python is 1 year older than you!".format(name))
+    print("Hello, {0}. Python is 1 year older than you are!".format(name))
 elif agedif == 0:
     print("Hello, {0}. You are the same age as Python!".format(name))
 elif agedif < 0:
-    print("Hello, {0}. Python is {1} years younger than you!".format(name, pnagedif))
+    print("Hello, {0}. Python is {1} years younger than you are!".format(name, pnagedif))
 else:
-    print("Hello, {0}. Python is {1} years older than you!".format(name, agedif))
+    print("Hello, {0}. Python is {1} years older than you are!".format(name, agedif))
