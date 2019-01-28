@@ -19,20 +19,19 @@ on the name and age that the user enters.
 """
 
 name = input("Please input name.")
-age = int(input("Please input age."))
-year = 1991
+birthyear = int(input("Please input year of birth."))
+releaseyear = 1991
 
-birthday = 2018 - age
-agedif = birthday - year
+agedif = birthyear - releaseyear
 pnagedif = abs(agedif)
 
 if agedif == -1:
-    print("Hello {0}! You are 1 year younger than Python!".format(name))
-elif agedif == 1:
     print("Hello {0}! You are 1 year older than Python!".format(name))
+elif agedif == 1:
+    print("Hello {0}! You are 1 year younger than Python!".format(name))
 elif agedif == 0:
     print("Hello {0}! You are the same age as Python!".format(name))
 elif agedif < 0:
-    print("Hello {0}! You are {1} year younger than Python!".format(name, pnagedif))
+    print("Hello {0}! You are {1} years older than Python!".format(name, pnagedif))
 else:
-    print("Hello {0}! You are {1} year older than Python!".format(name, agedif))
+    print("Hello {0}! You are {1} years younger than Python!".format(name, agedif))
