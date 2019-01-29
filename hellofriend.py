@@ -17,7 +17,7 @@ Note that the text: "Guido" and "16" are entered by the user running the program
 The final line ("Hello...") is generated dynamically when you run the program, based 
 on the name and age that the user enters.
 """
-Name=input(' Please tell me your name: ')
-Age=int(input(' Please tell me your age: '))
+Name=input('Please tell me your name: ')
+Age=int(input('Please tell me your age: '))
 YearsOlderThanYou=((2019-Age)-1991)
 print('Hello, {0}. Python is'. format(Name), YearsOlderThanYou ,'years older than you are!')
