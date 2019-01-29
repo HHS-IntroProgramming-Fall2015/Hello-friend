@@ -1,0 +1,6 @@
+name = input("Please tell me your name: ")
+age = input("Please tell me your age: ")
+
+years_older = 28 - int(age)
+
+print("Hello, " + name + ". Python is " + str(years_older) + " years older than you are!")
