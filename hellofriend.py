@@ -26,4 +26,4 @@ name = input("Please tell me your name: ")
 b = input("Please tell me your age: ")
 c = int(b)
 s = 28-c
-print("Hello, " + name + ". Python is " + str(s) + " Years older than you are!")
+print("Hello, " + name + ". Python is " + str(s) + " years older than you are!")
